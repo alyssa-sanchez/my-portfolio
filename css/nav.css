@@ -25,6 +25,7 @@ nav a:hover {
 	text-decoration: overline;
 	text-decoration-color: palevioletred;
 	text-decoration-thickness: 2px;
+	cursor: pointer;
 }
 nav a:active {
 	font-weight: bold;
@@ -36,7 +37,7 @@ nav a:active {
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		gap: 2rem;
+		gap: 15px;
 		height: 70px;
 	}
 }
