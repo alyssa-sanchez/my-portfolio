@@ -1,43 +1,42 @@
 nav {
-    position: fixed;
-    top: 0;
-    /* overflow: hidden; */
-    background-color: #1b1b1b;
-    color: whitesmoke;
-    border-bottom: 1px solid whitesmoke;
-    /* height: 80px; */
-    width: 100%;
-    /* SOLVE FROM DISAPPEARING THE NAV BAR */
-    z-index: 1000;
+	position: fixed;
+	top: 0;
+	/* overflow: hidden; */
+	background-color: #1b1b1b;
+	color: whitesmoke;
+	border-bottom: 1px solid whitesmoke;
+	/* height: 80px; */
+	width: 100%;
+	/* SOLVE FROM DISAPPEARING THE NAV BAR */
+	z-index: 1000;
 }
 .navigation {
-    display: flex;
-    justify-content: end;
-    gap: 2.5rem;
-    padding: 2em;
-    width: 100%;
+	display: flex;
+	justify-content: end;
+	gap: 2.5rem;
+	padding: 2em;
+	width: 100%;
 }
 nav a {
-    color: whitesmoke;
-    text-decoration: none;
+	color: whitesmoke;
+	text-decoration: none;
 }
 nav a:hover {
-    text-decoration: overline;
-    text-decoration-color: palevioletred;
-    text-decoration-thickness: 2px;
-    font-weight: bold;
+	text-decoration: overline;
+	text-decoration-color: palevioletred;
+	text-decoration-thickness: 2px;
 }
 nav a:active {
-    font-weight: bold;
+	font-weight: bold;
 }
 
-@media (max-width: 480px ) {
-    .navigation {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        gap: 2rem;
-        height: 70px;
-    }
+@media (max-width: 480px) {
+	.navigation {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		gap: 2rem;
+		height: 70px;
+	}
 }
