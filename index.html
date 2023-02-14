@@ -35,6 +35,8 @@
                 src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
                 <!-- favicon -->
                 <link rel="shortcut icon" href="picture/favicon.svg" type="image/x-icon">
+            <!-- animation -->
+            <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <nav>
@@ -48,11 +50,11 @@
         <!-- HOME -->
         <div class="home"
              id="home">
-            <div class="home-home">
+            <div class="home-home" data-aos="slide-right" data-aos-duration="2000">
                 <p><span class="hello">Hello I'm</span><br> <span class="name">Alyssa Sanchez</span><br> <span class="future">Aspring to become Web Developer</span></p>
             </div>
             <!-- WELCOME -->
-            <div class="welcome">
+            <div class="welcome" data-aos="slide-up" data-aos-duration="2000">
                 <p class="welcome-p">Welcome to my Portfolio</p>
                 <a href="cv/my-resume.pdf" target="_blank" ">Resume</a>
                 <!-- ICONS -->
@@ -81,7 +83,7 @@
         <!-- ABOUT -->
         <div id="about"
              class="about">
-            <div class="about-me">
+            <div class="about-me" data-aos="slide-left" data-aos-duration="2000">
                 <p class="about-m">About me</p>
                 <!-- Picture -->
                 <img class="picture"
@@ -97,14 +99,14 @@
             <div class="skills">
                 <!-- WEB -->
                 <div class="web"
-                     id="web">
+                     id="web" data-aos="flip-left" data-aos-duration="2000">
                     <h3 class="skill-font">Web Development</h3>
                     <p>HTML</p>
                     <p>CSS</p>
                     <p>JAVASCRIPT</p>
                 </div>
                 <!-- TOOLS -->
-                <div class="tools">
+                <div class="tools" data-aos="flip-left" data-aos-duration="2000">
                     <h3 class="skill-font">Tools</h3>
                     <p>FIGMA</p>
                     <p>CANVA</p>
@@ -120,7 +122,7 @@
                 <hr>
                 <!-- PROJECT CONTAINER -->
                 <div class="project-container">
-                    <div class="proj-one">
+                    <div class="proj-one" data-aos="slide-right"" data-aos-duration="2000">
                         <img class="proj-picture"
                              src="picture/p-generator.png"
                              alt="p-generator">
@@ -136,7 +138,7 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="proj-one">
+                    <div class="proj-one" data-aos="slide-right"" data-aos-duration="2000">
                         <img class="proj-picture"
                              src="picture/converter.png"
                              alt="converter">
@@ -152,7 +154,7 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="proj-one">
+                    <div class="proj-one" data-aos="slide-right"" data-aos-duration="2000">
                         <img class="proj-picture"
                              src="picture/basketball.png"
                              alt="converter">
@@ -168,7 +170,7 @@
                         </div>
                     </div>
                     <!--  -->
-                    <div class="proj-one">
+                    <div class="proj-one" data-aos="slide-right"" data-aos-duration="2000">
                         <img class="proj-picture"
                              src="picture/cookie.png"
                              alt="converter">
@@ -185,10 +187,9 @@
                 </div>
             </div>
             <!-- CONTACT  -->
-            <div class="contact"
-                 id="contact">
+            <div class="contact" id="contact">
                     <form class="form" action="https://formsubmit.co/sanchezaeinstein@gmail.com" method="POST">
-                        <p class="contact-name">Contact me 😁</p>
+                        <p class="contact-name">Contact me </p>
                         <input class="input-form" type="text" name="name" placeholder="Full Name" required>
                        
                         <input class="input-form" type="email" name="email" placeholder="Email" required>
@@ -202,5 +203,10 @@
                    <p class="copywright">&copy Alyssa Sanchez</p>
              
             </div>
+
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                <script>
+                    AOS.init();
+                </script>
     </body>
 </html>
